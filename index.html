@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of Ahmed Ayman Elkhodary, Computer Engineering student focused on AI, automation, and software development.">
+    <title>Ahmed Ayman Elkhodary | Interactive CV</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+    <div id="welcomeBanner" class="welcome-banner" role="status" aria-live="polite"></div>
+
+    <header>
+        <div class="container nav-wrap">
+            <a class="brand" href="#top">Ahmed Elkhodary</a>
+            <div class="header-actions">
+                <button class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="mainNav">Menu</button>
+                <button class="theme-toggle" id="themeToggle" aria-label="Switch to dark mode" title="Default follows system theme">Dark mode</button>
+            </div>
+            <nav aria-label="Main navigation">
+                <ul id="mainNav">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#api-projects">Live API</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#awards">Awards</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main id="main-content">
+        <section class="hero" id="top">
+            <div class="container hero-grid">
+                <div class="reveal">
+                    <h1>Hi, I am Ahmed, a Computer Engineering Fresh Graduate!</h1>
+                    <p>I am Ahmed Ayman Elkhodary, a Computer Engineering student at AUC focused on AI, automation, and practical software systems. I enjoy turning complex technical problems into reliable, user-friendly tools.</p>
+                    <div class="hero-tags" aria-label="Focus areas">
+                        <span class="tag">Artificial Intelligence</span>
+                        <span class="tag">Full-Stack Development</span>
+                        <span class="tag">Automation</span>
+                        <span class="tag">Embedded Systems</span>
+                    </div>
+                    <div class="hero-cta">
+                        <a class="btn btn-primary" href="#projects">Explore Projects</a>
+                        <a class="btn" href="mailto:aae121@aucegypt.edu">Email Me</a>
+                        <button class="btn" id="downloadCvBtn" type="button" title="Print or save this page as PDF">Download CV</button>
+                    </div>
+                </div>
+                <aside class="hero-card reveal" aria-label="Profile summary">
+                    <img src="images/profile.jpg" alt="Portrait of Ahmed Ayman Elkhodary">
+                    <p><strong>Currently:</strong> B.Sc. Computer Engineering, The American University in Cairo</p>
+                    <p><strong>Concentration:</strong> Artificial Intelligence</p>
+                    <p><strong>Minor:</strong> Mathematics</p>
+                </aside>
+            </div>
+        </section>
+
+        <section class="section" id="about">
+            <div class="container reveal">
+                <h2 class="section-title">About and Education</h2>
+                <p class="section-subtitle">My academic path combines systems thinking, software craftsmanship, and applied machine learning to build products that solve real problems.</p>
+                <div class="grid-2">
+                    <article class="panel">
+                        <h3>Education</h3>
+                        <p><strong>Institution:</strong> The American University in Cairo</p>
+                        <p><strong>Degree:</strong> B.Sc. Computer Engineering</p>
+                        <p><strong>Duration:</strong> February 2022 - June 2026</p>
+                        <p><strong>Location:</strong> New Cairo, Egypt</p>
+                    </article>
+                    <article class="panel">
+                        <h3>Professional Profile</h3>
+                        <p>I have worked in QA automation, data analysis, and AI-assisted software systems. I enjoy multidisciplinary work that combines engineering depth with measurable impact.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="experience">
+            <div class="container reveal">
+                <h2 class="section-title">Professional Experience</h2>
+                <p class="section-subtitle">Internship roles where I delivered production-facing outcomes and collaborated with engineering teams.</p>
+                <div class="timeline">
+                    <article class="timeline-item">
+                        <h3>Software Engineering Intern - Siemens EDA</h3>
+                        <p class="meta">July 2025 - August 2025 | New Cairo, Egypt</p>
+                        <ul>
+                            <li>Automated 90 percent of failing verification point updates in Squish tests with Python and XML.</li>
+                            <li>Built a PyQt5 GUI utility that cut manual maintenance effort by 60 percent.</li>
+                            <li>Parsed regression logs and generated reproducible bug reports for faster triage.</li>
+                        </ul>
+                    </article>
+                    <article class="timeline-item">
+                        <h3>Python Intern - Samsung Innovation Campus</h3>
+                        <p class="meta">July 2024 - October 2024 | Cairo, Egypt</p>
+                        <ul>
+                            <li>Selected among 70 scholars from more than 3200 applicants.</li>
+                            <li>Applied OOP, NumPy, and Pandas in practical software exercises.</li>
+                            <li>Delivered advanced Python projects under senior engineer mentorship.</li>
+                        </ul>
+                    </article>
+                    <article class="timeline-item">
+                        <h3>IT Intern - Orange</h3>
+                        <p class="meta">June 2024 - August 2024 | Smart Village, Egypt</p>
+                        <ul>
+                            <li>Designed an internship management system adopted by HR operations.</li>
+                            <li>Automated repetitive workflows and increased operational efficiency.</li>
+                        </ul>
+                    </article>
+                    <article class="timeline-item">
+                        <h3>Engineering Intern - Nokia</h3>
+                        <p class="meta">August 2023 - September 2023 | Cairo, Egypt</p>
+                        <ul>
+                            <li>Developed an AI chatbot prototype for web support scenarios.</li>
+                            <li>Explored LTE and 5G engineering concepts with technical teams.</li>
+                        </ul>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="projects">
+            <div class="container reveal">
+                <h2 class="section-title">Featured Projects</h2>
+                <p class="section-subtitle">Selected projects spanning hardware design, data science, and software engineering.</p>
+                <div class="section-controls">
+                    <button class="toggle-section" data-target="projectsContent" data-label="Projects" aria-expanded="true">Hide Projects</button>
+                </div>
+                <div class="projects" id="projectsContent">
+                    <article class="project">
+                        <h3>RISC-V Pipelined Processor</h3>
+                        <p>Designed a 5-stage 32-bit RISC-V processor in Verilog with hazard handling and forwarding paths.</p>
+                        <div class="chips"><span class="chip">Verilog</span><span class="chip">Vivado</span><span class="chip">Computer Architecture</span></div>
+                        <button class="detail-btn" data-details="proj1Details" aria-expanded="false">Show details</button>
+                        <p class="project-details hidden" id="proj1Details">Includes modules for ALU, control, hazard detection, forwarding, and register file with testbench verification.</p>
+                    </article>
+                    <article class="project">
+                        <h3>EEG Attention Classifier</h3>
+                        <p>Processed EEG signals with CAR and FFT feature extraction, then trained a KNN classifier for attention-state prediction.</p>
+                        <div class="chips"><span class="chip">Python</span><span class="chip">DSP</span><span class="chip">Machine Learning</span></div>
+                        <button class="detail-btn" data-details="proj2Details" aria-expanded="false">Show details</button>
+                        <p class="project-details hidden" id="proj2Details">Collected data from 5 subjects and engineered frequency-domain features to improve model separability.</p>
+                    </article>
+                    <article class="project">
+                        <h3>Codeforces Contest Database</h3>
+                        <p>Built a crawler and relational schema to collect and analyze contest data at scale.</p>
+                        <div class="chips"><span class="chip">Python</span><span class="chip">MySQL</span><span class="chip">Web Scraping</span></div>
+                        <button class="detail-btn" data-details="proj3Details" aria-expanded="false">Show details</button>
+                        <p class="project-details hidden" id="proj3Details">Added scripts for cleaning data and generating analytics summaries for trend analysis.</p>
+                    </article>
+                    <article class="project">
+                        <h3>AUCourier</h3>
+                        <p>Created a campus delivery platform with route optimization and assistant chatbot workflows.</p>
+                        <div class="chips"><span class="chip">TypeScript</span><span class="chip">C++</span><span class="chip">Product Design</span></div>
+                        <button class="detail-btn" data-details="proj4Details" aria-expanded="false">Show details</button>
+                        <p class="project-details hidden" id="proj4Details">Focused on reducing delivery time while improving tracking transparency for campus users.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="api-projects">
+            <div class="container reveal">
+                <h2 class="section-title">Live GitHub Projects</h2>
+                <p class="section-subtitle">This section is powered by the GitHub API and updates dynamically with my public repositories.</p>
+            <div class="contact-card api-panel">
+                    <div class="section-controls">
+                        <button class="toggle-section" data-target="githubReposContent" data-label="GitHub Projects" aria-expanded="true">Hide GitHub Projects</button>
+                        <button class="detail-btn" id="refreshReposBtn" type="button">Refresh Repositories</button>
+                    </div>
+                    <p id="githubRepoStatus" class="api-status" aria-live="polite">Loading repositories...</p>
+                    <div id="githubReposContent" class="repo-grid"></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="skills">
+            <div class="container reveal">
+                <h2 class="section-title">Technical Skills</h2>
+                <p class="section-subtitle">A practical stack built through coursework, internships, and project delivery.</p>
+                <div class="section-controls">
+                    <button class="toggle-section" data-target="skillsContent" data-label="Skills" aria-expanded="true">Hide Skills</button>
+                </div>
+                <div class="skills-grid" id="skillsContent">
+                    <article class="panel">
+                        <h3>Add New Skill (Dynamic)</h3>
+                        <div class="add-skill-row">
+                            <input id="addSkillInput" type="text" placeholder="Enter skill name" aria-label="Enter a new skill">
+                            <button class="add-skill-btn" id="addSkillButton" type="button">Add Skill</button>
+                        </div>
+                        <ul id="customSkillsList">
+                            <li>Problem Solving</li>
+                        </ul>
+                    </article>
+                    <article class="panel">
+                        <h3>Languages</h3>
+                        <ul>
+                            <li>Python</li>
+                            <li>C++</li>
+                            <li>TypeScript</li>
+                            <li>Verilog</li>
+                            <li>SQL</li>
+                            <li>TCL</li>
+                        </ul>
+                    </article>
+                    <article class="panel">
+                        <h3>Frameworks and Libraries</h3>
+                        <ul>
+                            <li>PyQt5</li>
+                            <li>Pandas</li>
+                            <li>NumPy</li>
+                            <li>Tkinter</li>
+                        </ul>
+                    </article>
+                    <article class="panel">
+                        <h3>Tools and Domains</h3>
+                        <ul>
+                            <li>Git</li>
+                            <li>Jenkins</li>
+                            <li>Jira</li>
+                            <li>Vivado</li>
+                            <li>Machine Learning</li>
+                            <li>Digital Design</li>
+                        </ul>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="awards">
+            <div class="container reveal">
+                <h2 class="section-title">Certificates and Awards</h2>
+                <p class="section-subtitle">Recognition and events that shaped my technical and professional growth.</p>
+                <div class="section-controls">
+                    <button class="toggle-section" data-target="awardsContent" data-label="Awards" aria-expanded="true">Hide Awards</button>
+                </div>
+                <div class="awards" id="awardsContent">
+                    <article class="award">
+                        <h3>P and G Standout Commercial Challenge</h3>
+                        <p>Top 20 teams out of 50 after presenting strategy and market analysis work.</p>
+                    </article>
+                    <article class="award">
+                        <h3>Dell AI Workshop</h3>
+                        <p>Completed practical AI training sessions in model design and application contexts.</p>
+                    </article>
+                    <article class="award">
+                        <h3>EURECA 2025 Research Convention</h3>
+                        <p>Presented research discussing bias in artificial intelligence through an ESI perspective.</p>
+                    </article>
+                    <article class="award">
+                        <h3>Google UX Design Certificate</h3>
+                        <p>Covered user research, wireframing, prototyping, and interaction design workflows.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="contact">
+            <div class="container reveal">
+                <h2 class="section-title">Contact</h2>
+                <p class="section-subtitle">Contact form with JavaScript validation as required in Assignment 2.</p>
+                <div class="contact-card">
+                    <div class="contact-row"><strong>Email:</strong> <a href="mailto:aae121@aucegypt.edu">aae121@aucegypt.edu</a></div>
+                    <div class="contact-row"><strong>Phone:</strong> <a href="tel:+201102072750">+20 110 207 2750</a></div>
+                    <div class="contact-row"><strong>GitHub:</strong> <a href="https://github.com/aae121" target="_blank" rel="noopener">github.com/aae121</a></div>
+                    <div class="contact-row"><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/ahmedaelkhodary" target="_blank" rel="noopener">linkedin.com/in/ahmedaelkhodary</a></div>
+                    <form id="contactForm" class="contact-form" novalidate>
+                        <div class="form-row">
+                            <label for="contactName">Name</label>
+                            <input id="contactName" name="name" type="text" required>
+                        </div>
+                        <div class="form-row">
+                            <label for="contactEmail">Email</label>
+                            <input id="contactEmail" name="email" type="email" required>
+                        </div>
+                        <div class="form-row">
+                            <label for="contactText">Message</label>
+                            <textarea id="contactText" name="message" rows="4" required></textarea>
+                        </div>
+                        <button class="form-btn" type="submit">Send Message</button>
+                        <p id="formMessage" class="form-message" aria-live="polite"></p>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container footer-line">
+            <p>Copyright <span id="year"></span> Ahmed Ayman Elkhodary</p>
+            <p>Built as Assignment 3 portfolio with API integration</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
